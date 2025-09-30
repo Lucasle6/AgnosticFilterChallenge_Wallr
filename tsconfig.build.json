@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "types": [],
+    "noUnusedLocals": false
+  },
+  "include": ["src/lib"],
+  "exclude": ["src/example", "tests", "node_modules", "dist"]
+}
